@@ -1,0 +1,27 @@
+/** Diseño css para el header */
+
+.main-header{
+    background-color: $color-fondo;
+    color: $white-white;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid $color-fondo;
+}
+
+#logo-web{
+    width: 170px;
+    height: auto;
+    margin-left: 35px;
+}
+
+.main-header .card-text{
+    font-weight: 600;
+    font-size: 50px;
+}
+.main-header .card-title{
+    font-weight: 200;
+    font-size: 50px;
+}

@@ -1,0 +1,49 @@
+// Abstracts
+//Pongo las variables de primero ya que en ellas estan definidas valores que necesito a nivel global
+@import "abstract/variables";
+//@import "abstracts/colors";
+@import "abstract/mixins";
+
+// Base
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+//@import "base/normalize";
+
+// Layout
+//@import "layout/navbar";
+//@import "layout/sidebar";
+@import "layout/header";
+@import "layout/main.scss";
+@import "layout/footer";
+
+// Components
+//@import "components/alert";
+@import "components/buttons";
+//@import "components/badge";
+//@import "components/label";
+//@import "components/modal";
+//@import "components/course-card";
+//@import "components/infobox";
+//@import "components/success-popup";
+//@import "components/profile-card";
+
+// Pages
+/*@import "pages/product";
+@import "pages/product-single";
+@import "pages/blog";
+@import "pages/blog-single";
+@import "pages/invoice";
+@import "pages/login";
+@import "pages/signup";*/
+
+// Themes
+/*@import "themes/dark-theme";
+@import "themes/light-theme";
+@import "themes/material-theme";
+@import "themes/flat-theme";*/
+
+// Vendors
+/*@import "vendor/bootstrap";
+@import "vendor/owl-carousel";
+@import "vendor/jqueryui";*/

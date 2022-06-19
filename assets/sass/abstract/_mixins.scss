@@ -1,0 +1,14 @@
+@mixin textColor($color: $white-white) {
+    color: $color;
+    text-align: justify;
+}
+
+@mixin centerImg() {
+    
+    margin-top: 30px;
+    width: 72%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -1,0 +1,72 @@
+
+
+.background-gray{
+    background-color: $Taupe-gray;
+}
+
+.first-info-tomato{
+    margin: 0px;
+    @include textColor();
+
+    img{
+        @include centerImg();
+    }  
+}
+
+.second-info-tomato{
+    @include textColor($granite-gray);
+
+    background-color: $snow-snow;
+
+    img{
+        @include centerImg();
+    }
+}
+
+.card{
+    border: 0px;
+}
+
+.div-text-justify{
+    width: 52%;
+    margin-right: auto;
+    margin-left: auto;
+    h3{
+        text-align: center;
+        margin-top: 6px;
+        font-weight: 600;
+    }
+}
+
+#card-img-tomato-women, #card-img-tomato-men{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-ellos{
+    background-color: $color-fondo;
+    color: $white-white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid $color-fondo;
+}
+
+.main-ellos .card-text-1{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.main-ellos .card-title{
+    font-weight: 200;
+    font-size: 27px;
+}
+
+
+.btn {
+    width: 200px;
+    border-radius: 30px;
+}

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Roboto:wght@300;400&display=swap");
+/** Diseño css para el header */
+.main-header {
+  background-color: #e56353;
+  color: #fff;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-top: 1px solid #e56353;
+}
+
+#logo-web {
+  width: 170px;
+  height: auto;
+  margin-left: 35px;
+}
+
+.main-header .card-text {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.main-header .card-title {
+  font-weight: 200;
+  font-size: 50px;
+}
+
+.background-gray {
+  background-color: #91918d;
+}
+
+.first-info-tomato {
+  margin: 0px;
+  color: #fff;
+  text-align: justify;
+}
+.first-info-tomato img {
+  margin-top: 30px;
+  width: 72%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.second-info-tomato {
+  color: #686963;
+  text-align: justify;
+  background-color: #fafafa;
+}
+.second-info-tomato img {
+  margin-top: 30px;
+  width: 72%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.card {
+  border: 0px;
+}
+
+.div-text-justify {
+  width: 52%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.div-text-justify h3 {
+  text-align: center;
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+#card-img-tomato-women, #card-img-tomato-men {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-ellos {
+  background-color: #e56353;
+  color: #fff;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-top: 1px solid #e56353;
+}
+
+.main-ellos .card-text-1 {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.main-ellos .card-title {
+  font-weight: 200;
+  font-size: 27px;
+}
+
+.btn {
+  width: 200px;
+  border-radius: 30px;
+}
+
+.footer {
+  color: #686963;
+  text-align: justify;
+  background-color: #686963;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+.footer img {
+  margin-top: 30px;
+  width: 72%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.footer #img-footer {
+  height: 200px;
+}
+
+#logo-footer {
+  width: 250px;
+}
+
+/*@import "pages/product";
+@import "pages/product-single";
+@import "pages/blog";
+@import "pages/blog-single";
+@import "pages/invoice";
+@import "pages/login";
+@import "pages/signup";*/
+/*@import "themes/dark-theme";
+@import "themes/light-theme";
+@import "themes/material-theme";
+@import "themes/flat-theme";*/
+/*@import "vendor/bootstrap";
+@import "vendor/owl-carousel";
+@import "vendor/jqueryui";*/
+
+/*# sourceMappingURL=style.css.map */

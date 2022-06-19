@@ -1,0 +1,23 @@
+.footer{
+    @include textColor($granite-gray);
+
+    img{
+        @include centerImg();
+    }
+
+    #img-footer{
+        height: 200px;
+    }
+
+    background-color: $granite-gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+
+#logo-footer{
+    width: 250px;
+}
+
